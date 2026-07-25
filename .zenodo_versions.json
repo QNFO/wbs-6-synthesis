@@ -1,13 +1,20 @@
 {
   "concept_doi": "10.5281/zenodo.21547793",
-  "latest_deposit_id": "",
+  "latest_deposit_id": "21575332",
   "versions": [
     {
       "doi": "10.5281/zenodo.21547793",
-      "deposit_id": "",
+      "deposit_id": "21547793",
       "tag": "v1.0",
       "published_at": "2026-07-25",
       "description": "Initial publication: Five Pillars, One Structure — Consilient Convergence in QNFO Research"
+    },
+    {
+      "doi": "10.5281/zenodo.21575332",
+      "deposit_id": "21575332",
+      "tag": "v1.1",
+      "published_at": "2026-07-25",
+      "description": "ACRP-01 Phase 1 corrections: C1 D1 sync, C2 certainty calibration (existing), C3 83% cross-reference to §5, C4 semigroup density risk added to §5 item 6, C5 O(1) already calibrated, C6 ACD v3.2 DOI added to refs (item 11b), C7 version chain tracking"
     }
   ],
   "corrections": {
@@ -15,7 +22,8 @@
       "date": "2026-07-25",
       "program": "ACRP-01 Phase 1",
       "description": "C1-C7 corrections: C1 D1 sync, C2 certainty calibration (addressed in existing text), C3 83% cross-reference to §5, C4 semigroup density risk added to constraining literature (§5 item 6), C5 O(1) already calibrated (no change needed), C6 ACD v3.2 DOI added to references (item 11b), C7 version chain tracking created",
-      "status": "applied-to-paper, D1-synced, Zenodo-newversion-pending"
+      "status": "published",
+      "zenodo_doi": "10.5281/zenodo.21575332"
     }
   }
 }
