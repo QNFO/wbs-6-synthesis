@@ -164,7 +164,7 @@ exactly the computational paradigm that the other four pillars independently con
 spectral expansions, Kodaira-Néron fiber classification, and the Amice transform —
 provide a unified framework for classifying quantum error-correcting codes with
 83% classification accuracy and 100% lemma-level agreement. `[computationally verified —
-4 code families, 14 lemmas]`
+4 code families, 14 lemmas; see §5 for limitation on code-family coverage]`
 
 Three major conjectures: (C2.1') CSS-Ultrametric Correspondence, (C5.1) Kodaira-Néron
 Fiber Classification for Stabilizer Codes, (C7.3') Mahler $v_p$-Spectral Decomposition.
@@ -319,7 +319,16 @@ quantitative threshold distinguishes signal from noise, and what would disconfir
    Commun. Math. Phys. 298, 419–436). The α-π-Helix knot-theoretic approach
    must address these critiques directly.
 
-6. **[NO CONSTRAINING EVIDENCE FOUND]** for the consilience claim itself — the
+6. **The Pythagorean semigroup ℘ = {2^a·3^b·5^c} is dense in ℝ₊.** Because
+   ln 2, ln 3, ln 5 are linearly independent over ℚ, any positive real number
+   can be approximated arbitrarily well by elements of ℘. This means that
+   "the Pythagorean lattice encodes Standard Model mass ratios" is a weaker
+   claim than it appears — any finite set of positive real numbers has
+   approximations in ℘. The framework must demonstrate that the specific
+   exponents (a,b,c) have independent physical meaning beyond mere
+   approximation. `[acknowledged risk — see ACD v3.2 §10.6 item 4]`
+
+7. **[NO CONSTRAINING EVIDENCE FOUND]** for the consilience claim itself — the
    convergence of five independent lines is the evidence. The framework's truth
    value depends on whether this convergence reflects genuine structure or
    confirmation bias from shared intellectual origins.
@@ -427,6 +436,7 @@ expanded code family test set.
 9. Distler, J., & Garibaldi, S. (2010). There is no "Theory of Everything" inside $E_8$. *Communications in Mathematical Physics*, 298, 419–436.
 10. QNFO Research Collective (2026). Silent-Radix Cryptography. Zenodo. DOI: PENDING.
 11. QNFO Research Collective (2026). The Adelic Physics Program: A Grand Synthesis. Zenodo. DOI: 10.5281/zenodo.21336099.
+11b. QNFO Research Collective (2026). The Adelic Cross-Domain Program: From the Fine-Structure Constant to the Standard Model Mass Spectrum via Bruhat-Tits Trees (v3.2). Zenodo. DOI: 10.5281/zenodo.21546243. (Note: v3.2 corrects mass ratio arithmetic errors and Efimov λ derivation from v3.1.)
 12. QNFO Research Collective (2026). Syntactic Generation of Primitive Distinctions. QNFO Working Paper.
 13. QNFO Research Collective (2026). The Qubit Delusion: How Particle Ontology Sabotaged Quantum Computing. Zenodo.
 14. QNFO Research Collective (2026). Number-Theoretic Ultrametric Foundations. Zenodo. DOI: 10.5281/zenodo.21046993.
