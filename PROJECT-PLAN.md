@@ -23,13 +23,13 @@ Ultrametric (non-Archimedean) mathematics provides the correct state-space geome
 |:------|:-----|:------:|:------------|:-----|
 | 0 | Project Init | ✅ | Repo, scaffold, .gitignore, README | P1-P8 |
 | 1 | Due Diligence | ✅ | KG + D1 + Vectorize + external query | Cross-ref report |
-| 2 | Literature Search | ⬜ | Multi-source search, dedup, classification | Classification matrix |
-| 3 | Citation Management | ⬜ | BibTeX extraction, DOI verification | Audit report |
+| 2 | Literature Search | ✅ | Vectorize + KG + external APIs queried (SS blocked, arXiv empty) | `artifacts/literature-classification.md` |
+| 3 | Citation Management | ✅ | 16 refs audited, 5 DOIs verified, 2 DOIs missing | `artifacts/citation-audit.md` |
 | 4 | Deep Research | ⬜ | Bayesian cascade (if triggered) | Calibration register |
 | 5 | Publication | ✅ | paper.md + PDF + Zenodo v1.0 + v1.1 | DOI resolves, D1 synced |
 | 6 | Deployment | ✅ | D1 living-paper, papers-server | HTTP 200 |
-| 7 | Dissemination | ⬜ | Buffer social, SEO audit, IA snapshot | 3/3 channels posted |
-| 8 | Core Distribution | ⬜ | R2 archive, KG seed | 4-layer verification |
+| 7 | Dissemination | ✅* | Buffer: Bluesky ✅ Twitter ✅ LinkedIn ⛔ (queue full); SEO ✅; IA ✅ | 2/3 channels, IA submitted |
+| 8 | Core Distribution | ✅ | R2 archive, KG node, GitHub + Zenodo + D1 | 4-layer verification |
 
 ---
 
@@ -87,4 +87,17 @@ Ultrametric (non-Archimedean) mathematics provides the correct state-space geome
 |:--------|:-----|:----|:------------|
 | v1.0 | 2026-07-25 | v1.0 | Initial publication |
 | v1.1 | 2026-07-25 | v1.1-ACRP-01 | ACRP-01 Phase 1 corrections (C1-C7) |
-| v1.2 | TBD | v1.2 | Phase 7 Dissemination + Phase 8 Core Distribution |
+| v1.12 | 2026-07-26 | — | Phase 2-3 complete; KIF-29 scaffold fix; red-team audit passed |
+
+---
+
+## §8 Red-Team & Kaizen Register
+
+| ID | Finding | Severity | Status | Resolution |
+|:---|:--------|:---------|:------:|:-----------|
+| KIF-29 | Phase 0 scaffold incomplete: `docs/`, `notebooks/`, `releases/` dirs missing | MEDIUM | ✅ | Created dirs, committed `c55f73f` |
+| AR01 | `.zenodo_versions.json` `latest_deposit_id` blank in earlier version | LOW | ✅ | Updated during v1.1 publish to `21575332` |
+| AR02 | Buffer LinkedIn blocked by account queue limit (10/10) | LOW | ⛔ | User must clear Buffer queue/upgrade plan |
+| AR03 | 14 skills in trigger table not installed (KIF-13 propagation) | LOW | ⬜ | Skill ecosystem gap — `cloudflare`, `knowledge`, etc. not deployed |
+| AR04 | Phase 2 external search partially blocked (SS 429, arXiv empty) | LOW | ⬜ | Need Semantic Scholar API key; paper already has 9 external refs |
+| AR05 | 2 missing DOIs in references (Faddeev-Niemi 1997, Distler-Garibaldi 2010) | LOW | ⬜ | Add at next paper revision (v1.2) |
