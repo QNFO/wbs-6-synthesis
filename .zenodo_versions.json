@@ -1,43 +1,15 @@
 {
   "concept_doi": "10.5281/zenodo.21547793",
-  "latest_deposit_id": "21602774",
+  "latest_deposit_id": "21603374",
   "versions": [
-    {
-      "doi": "10.5281/zenodo.21547793",
-      "deposit_id": "21547793",
-      "tag": "v1.0",
-      "published_at": "2026-07-25",
-      "description": "Initial publication: Five Pillars, One Structure — Consilient Convergence in QNFO Research"
-    },
-    {
-      "doi": "10.5281/zenodo.21575332",
-      "deposit_id": "21575332",
-      "tag": "v1.1",
-      "published_at": "2026-07-25",
-      "description": "ACRP-01 Phase 1 corrections: C1 D1 sync, C2 certainty calibration (existing), C3 83% cross-reference to §5, C4 semigroup density risk, C5 O(1) already calibrated, C6 ACD v3.2 DOI, C7 version chain tracking"
-    },
-    {
-      "doi": "10.5281/zenodo.21602774",
-      "deposit_id": "21602774",
-      "tag": "v1.2",
-      "published_at": "2026-07-26",
-      "description": "PDF rendering fix: corrected Unicode-to-LaTeX conversion (℘ → $\\wp$) for XeLaTeX build pipeline. Zero U+FFFD/U+FFFF characters on all 10 pages. Paper.md source updated with proper math-mode escaping."
-    }
+    {"doi": "10.5281/zenodo.21547793", "deposit_id": "21547793", "tag": "v1.0", "published_at": "2026-07-25", "description": "Initial publication"},
+    {"doi": "10.5281/zenodo.21575332", "deposit_id": "21575332", "tag": "v1.1", "published_at": "2026-07-25", "description": "ACRP-01 Phase 1 C1-C7 corrections"},
+    {"doi": "10.5281/zenodo.21602774", "deposit_id": "21602774", "tag": "v1.2", "published_at": "2026-07-26", "description": "PDF rendering fix"},
+    {"doi": "10.5281/zenodo.21603374", "deposit_id": "21603374", "tag": "v1.3", "published_at": "2026-07-26", "description": "AR05 fix: added missing DOIs for Faddeev-Niemi 1997 and Distler-Garibaldi 2010"}
   ],
   "corrections": {
-    "v1.1-ACRP-01": {
-      "date": "2026-07-25",
-      "program": "ACRP-01 Phase 1",
-      "description": "C1-C7 corrections",
-      "status": "published",
-      "zenodo_doi": "10.5281/zenodo.21575332"
-    },
-    "v1.2-PDF-FIX": {
-      "date": "2026-07-26",
-      "program": "ACRP-01 Phase 1",
-      "description": "PDF rendering fix: ℘ U+2118 → math-mode $\\wp$, zero U+FFFD on all pages",
-      "status": "published",
-      "zenodo_doi": "10.5281/zenodo.21602774"
-    }
+    "v1.1-ACRP-01": {"date": "2026-07-25", "status": "published", "zenodo_doi": "10.5281/zenodo.21575332"},
+    "v1.2-PDF-FIX": {"date": "2026-07-26", "status": "published", "zenodo_doi": "10.5281/zenodo.21602774"},
+    "v1.3-AR05": {"date": "2026-07-26", "status": "published", "zenodo_doi": "10.5281/zenodo.21603374"}
   }
 }

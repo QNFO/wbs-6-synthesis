@@ -432,8 +432,8 @@ expanded code family test set.
 5. Vladimirov, V. S., Volovich, I. V., & Zelenov, E. I. (1994). *p-adic Analysis and Mathematical Physics*. World Scientific.
 6. Khrennikov, A. (2009). *Interpretations of Probability*. Walter de Gruyter.
 7. Bilson-Thompson, S. O. (2005). A topological model of composite preons. arXiv:hep-ph/0503213.
-8. Faddeev, L. D., & Niemi, A. J. (1997). Stable knot-like structures in classical field theory. *Nature*, 387, 58–61.
-9. Distler, J., & Garibaldi, S. (2010). There is no "Theory of Everything" inside $E_8$. *Communications in Mathematical Physics*, 298, 419–436.
+8. Faddeev, L. D., & Niemi, A. J. (1997). Stable knot-like structures in classical field theory. *Nature*, 387, 58–61. DOI: 10.1038/387058a0.
+9. Distler, J., & Garibaldi, S. (2010). There is no "Theory of Everything" inside $E_8$. *Communications in Mathematical Physics*, 298, 419–436. DOI: 10.1007/s00220-010-1055-2.
 10. QNFO Research Collective (2026). Silent-Radix Cryptography. Zenodo. DOI: PENDING.
 11. QNFO Research Collective (2026). The Adelic Physics Program: A Grand Synthesis. Zenodo. DOI: 10.5281/zenodo.21336099.
 11b. QNFO Research Collective (2026). The Adelic Cross-Domain Program: From the Fine-Structure Constant to the Standard Model Mass Spectrum via Bruhat-Tits Trees (v3.2). Zenodo. DOI: 10.5281/zenodo.21546243. (Note: v3.2 corrects mass ratio arithmetic errors and Efimov λ derivation from v3.1.)
