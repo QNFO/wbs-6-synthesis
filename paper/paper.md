@@ -319,12 +319,12 @@ quantitative threshold distinguishes signal from noise, and what would disconfir
    Commun. Math. Phys. 298, 419–436). The α-π-Helix knot-theoretic approach
    must address these critiques directly.
 
-6. **The Pythagorean semigroup ℘ = {2^a·3^b·5^c} is dense in ℝ₊.** Because
-   ln 2, ln 3, ln 5 are linearly independent over ℚ, any positive real number
-   can be approximated arbitrarily well by elements of ℘. This means that
+6. **The Pythagorean semigroup $\wp = \{2^a \cdot 3^b \cdot 5^c\}$ is dense in $\mathbb{R}_+$.** Because
+   $\ln 2, \ln 3, \ln 5$ are linearly independent over $\mathbb{Q}$, any positive real number
+   can be approximated arbitrarily well by elements of $\wp$. This means that
    "the Pythagorean lattice encodes Standard Model mass ratios" is a weaker
    claim than it appears — any finite set of positive real numbers has
-   approximations in ℘. The framework must demonstrate that the specific
+   approximations in $\wp$. The framework must demonstrate that the specific
    exponents (a,b,c) have independent physical meaning beyond mere
    approximation. `[acknowledged risk — see ACD v3.2 §10.6 item 4]`
 
