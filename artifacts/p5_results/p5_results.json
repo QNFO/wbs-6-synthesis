@@ -1,0 +1,89 @@
+{
+  "analysis": "P5 CMB Log-Periodogram — P-ADIC PERIODS (WBS-6 Synthesis v1.3)",
+  "framework": "Five Pillars, One Structure (DOI 10.5281/zenodo.21603374)",
+  "prediction": "CMB log-periodic oscillations at k_p = 2*pi/log p for p=2,3,5",
+  "data": "Planck 2018 TT full (COM_PowerSpect_CMB-TT-full_R3.01.txt, 2507 pts)",
+  "based_on": "CAL-03 pipeline (DOI 10.5281/zenodo.21534747)",
+  "date": "2026-07-27",
+  "chi2_dof": 1.027,
+  "residuals_rms_uK2": 177.3,
+  "ell_range": [30, 2500],
+  "n_pts_analysis": 2471,
+  "n_log_grid": 1000,
+  "n_frequencies": 5000,
+  "log_span_ln_units": 4.42,
+  "cycles_p2": 6.4,
+  "cycles_p3": 4.0,
+  "cycles_p5": 2.7,
+  "mc_significance": {
+    "global_p_value": 0.38,
+    "max_power_obs": 0.008240,
+    "null_median": 0.007547,
+    "null_68pct": 0.008822,
+    "null_95pct": 0.015620,
+    "null_99pct": 0.024009,
+    "null_99_7pct_3sigma": 0.030501,
+    "n_sims": 200,
+    "verdict": "H0 (LambdaCDM, no DSI) NOT REJECTED"
+  },
+  "padic_targets": {
+    "p=2": {
+      "period_ln": 0.693147,
+      "q": 2.0,
+      "frequency": 1.442695,
+      "ls_power": 0.001376,
+      "single_fap": 0.5032,
+      "template_r_best": -0.0266,
+      "template_p_best": 0.4016,
+      "template_phase": "sin",
+      "phase_scan_r_max": -0.0362,
+      "phase_scan_phi_best_rad": 0.8209,
+      "freq_mc_p": 0.5150,
+      "freq_mc_null_median": 0.001412,
+      "verdict": "NOT SIGNIFICANT"
+    },
+    "p=3": {
+      "period_ln": 1.098612,
+      "q": 3.0,
+      "frequency": 0.910239,
+      "ls_power": 0.005311,
+      "single_fap": 0.0706,
+      "template_r_best": -0.0669,
+      "template_p_best": 0.0343,
+      "template_phase": "cos",
+      "phase_scan_r_max": -0.0754,
+      "phase_scan_phi_best_rad": 0.4105,
+      "freq_mc_p": 0.0350,
+      "freq_mc_null_median": 0.001284,
+      "verdict": "NOMINALLY p<0.05, NOT SIGNIFICANT AFTER BONFERRONI (p<0.0083 required for 6 tests)"
+    },
+    "p=5": {
+      "period_ln": 1.609438,
+      "q": 5.0,
+      "frequency": 0.621335,
+      "ls_power": 0.001885,
+      "single_fap": 0.3902,
+      "template_r_best": 0.0491,
+      "template_p_best": 0.1209,
+      "template_phase": "cos",
+      "phase_scan_r_max": 0.0510,
+      "phase_scan_phi_best_rad": 0.2526,
+      "freq_mc_p": 0.3050,
+      "freq_mc_null_median": 0.001046,
+      "verdict": "NOT SIGNIFICANT"
+    }
+  },
+  "amplitude_constraint": {
+    "B_95_upper_limit": 0.004,
+    "note": "Applies to ALL log-periodic signals in Planck 2018. Any p-adic signal below this is undetectable.",
+    "cmb_s4_projected_B_95": 0.0008
+  },
+  "top_5_peaks": [
+    {"freq": 4.8556, "period": 0.2059, "q": 1.2287, "power": 0.0082},
+    {"freq": 0.8797, "period": 1.1367, "q": 3.1165, "power": 0.0056},
+    {"freq": 1.9586, "period": 0.5106, "q": 1.6662, "power": 0.0045},
+    {"freq": 1.1477, "period": 0.8713, "q": 2.3900, "power": 0.0041},
+    {"freq": 1.6787, "period": 0.5957, "q": 1.8143, "power": 0.0036}
+  ],
+  "final_verdict": "P5 NOT DISCONFIRMED. No significant p-adic log-periodic oscillations detected in Planck 2018 CMB TT at p=2,3,5. The p=3 period shows nominal significance (freq-MC p=0.035) but does not survive Bonferroni correction. P5 remains viable: the predicted amplitude may be below Planck sensitivity (B_95 < 0.004). CMB-S4 (2028) would provide ~5x better sensitivity."
+}
