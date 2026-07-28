@@ -10,7 +10,9 @@
 
 ## P4 — Ultrametric LLM Embeddings
 
-**Status:** `[ANALYZED — SUPPORTED]` ← was `[UNTESTED]`
+**Status:** `[ANALYZED — NOT DISCONFIRMED]` ← was `[UNTESTED]`
+
+**Note on designation:** The cophenetic measurement methodology IS validated (simulated semantic r=0.8745 confirms that cophenetic correlation captures ultrametric structure when semantic hierarchy exists). However, the DIRECT test — training an LLM on token-distinction corpora and measuring r on the resulting embeddings — has NOT been performed. The simulated method is a POSITIVE CONTROL, not a genuine test. Surface-level character n-gram features (r=0.2004) lack ultrametric structure, confirming that semantic organization (not surface morphology) is the required source. Status is NOT DISCONFIRMED rather than SUPPORTED because the prediction's core claim (trained LLM embeddings → ultrametric structure) has not been directly measured.
 
 **Analysis performed:** 2026-07-28. Cophenetic correlation test on token embeddings with
 hierarchical clustering (Ward's method). Five methods tested:
@@ -98,12 +100,12 @@ threshold (ratio < 1.5).
 | P1 | ZBW p-adic harmonics | `[DESIGNED]` | — | No harmonics > 3σ |
 | P2 | Silent Radix reduction | `[DESIGNED]` | — | Poly-time attack found |
 | P3 | QEC O(1) overhead | `[DESIGNED]` | — | Accuracy < 50% |
-| **P4** | **Ultrametric LLM embeddings** | **`[ANALYZED — SUPPORTED]`** | **r = 0.8745** | r < 0.5 |
+| **P4** | **Ultrametric LLM embeddings** | **`[ANALYZED — NOT DISCONFIRMED]`** | **r = 0.8745 (positive control)** | r < 0.5 |
 | **P5** | **CMB log-periodic oscillations** | **`[ANALYZED — NOT DISCONFIRMED]`** | **p = 0.38 (global)** | No structure at any p |
 | **P6** | **Qubit-count ratio > 3×** | **`[ANALYZED — SUPPORTED]`** | **3--10×** | Ratio < 1.5 |
 | P7 | SRE sub-exponential | `[SPECULATIVE]` | — | N/A (not falsifiable) |
 
-**Framework health:** 0/7 disconfirmed, 2/7 supported (P4, P6), 1/7 not disconfirmed (P5),
+**Framework health:** 0/7 disconfirmed, 1/7 supported (P6), 2/7 not disconfirmed (P4, P5),
 3/7 designed/blocked (P1-P3), 1/7 speculative (P7).
 
 ---

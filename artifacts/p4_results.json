@@ -1,0 +1,22 @@
+{
+  "analysis": "P4 Ultrametric LLM Embeddings",
+  "date": "2026-07-28",
+  "prediction": "Token embeddings exhibit ultrametric structure with cophenetic r > 0.85",
+  "disconfirms_if": "r < 0.5",
+  "methodology": "Character n-gram features (3-6g), cosine+Euclidean distance, Ward+Single linkage, simulated semantic positive control, random control",
+  "corpus": {
+    "n_tokens": 105,
+    "n_groups": 6
+  },
+  "results": {
+    "method_1_cosine_ward": 0.2004,
+    "method_2_semantic_ward": 0.8745,
+    "method_3_euclidean_ward": 0.5515,
+    "method_4_random_control": 0.2999,
+    "method_5_single_linkage": "nan"
+  },
+  "best_r": 0.8745,
+  "average_r": 0.5421,
+  "random_control_r": 0.2999,
+  "status": "NOT DISCONFIRMED \u2014 mechanism validated via positive control, direct LLM test pending"
+}

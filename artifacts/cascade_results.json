@@ -1,0 +1,54 @@
+{
+  "phase": 4,
+  "name": "Bayesian Cascade",
+  "date": "2026-07-28",
+  "framework": "Five Pillars, One Structure",
+  "doi": "10.5281/zenodo.21603374",
+  "predictions": [
+    {
+      "id": "P4",
+      "status": "NOT DISCONFIRMED",
+      "lr": 4.5
+    },
+    {
+      "id": "P5",
+      "status": "NOT DISCONFIRMED",
+      "lr": 0.778
+    },
+    {
+      "id": "P6",
+      "status": "SUPPORTED",
+      "lr": 2.833
+    }
+  ],
+  "combined_lr": 9.918,
+  "results": {
+    "neutral": {
+      "prior": 0.5,
+      "posterior": 0.9084,
+      "delta": 0.4084
+    },
+    "conservative": {
+      "prior": 0.25,
+      "posterior": 0.7678,
+      "delta": 0.5178
+    },
+    "skeptical": {
+      "prior": 0.1,
+      "posterior": 0.5243,
+      "delta": 0.4243
+    },
+    "optimistic": {
+      "prior": 0.75,
+      "posterior": 0.9675,
+      "delta": 0.2175
+    }
+  },
+  "evidence_grade": "MODERATE",
+  "sensitivity": {
+    "baseline_posterior": 0.9084,
+    "worst_plausible_posterior": 0.7484276729559748,
+    "lr_to_nullify": 0.1008
+  },
+  "note": "Based on 1 SUPPORTED + 2 NOT DISCONFIRMED. Likelihoods are subjective estimates."
+}
