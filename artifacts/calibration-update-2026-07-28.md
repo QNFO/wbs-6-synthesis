@@ -121,6 +121,43 @@ P4, P5, and P6 are now analyzed. Remaining work is all hardware/math dependent.
 
 ---
 
+## Phase 4 — Bayesian Cascade (2026-07-28)
+
+**Method:** Bayes' theorem update of P(H | evidence) where H = "Five Pillars framework is correct."
+
+**Likelihood ratios:**
+
+| Prediction | Status | P(E|H) | P(E|¬H) | LR |
+|:-----------|:-------|:------|:--------|:---|
+| P4 (Ultrametric embeddings) | SUPPORTED (r=0.8745) | 0.90 | 0.20 | 4.500 |
+| P5 (CMB log-periodic) | NOT DISCONFIRMED (p=0.38) | 0.70 | 0.90 | 0.778 |
+| P6 (Qubit-count ratio) | SUPPORTED (3–10×) | 0.85 | 0.30 | 2.833 |
+| **Combined** | | | | **9.918** |
+
+**Posterior probabilities:**
+
+| Prior P(H) | Posterior P(H|evidence) | Δ |
+|:-----------|:------------------------|:--|
+| 0.50 (neutral) | 0.908 (91%) | +0.408 |
+| 0.25 (conservative) | 0.768 (77%) | +0.518 |
+| 0.10 (skeptical) | 0.524 (52%) | +0.424 |
+| 0.75 (optimistic) | 0.968 (97%) | +0.218 |
+
+**Evidence grade:** MODERATE (LR = 9.92, 10 < LR < 100 would be SUBSTANTIAL).
+
+The Five Pillars framework survives its first three testable predictions. Even
+under skeptical priors, P(H|evidence) exceeds 50%. The framework would require
+approximately two independent disconfirmations (LR_disconfirm ≈ 0.1) to return
+to pre-analysis probability levels — a single disconfirmation would drop the
+neutral posterior from 0.91 to ~0.50.
+
+**Caveats:** (1) P4 used simulated semantics, not trained LLM embeddings;
+(2) P5 is a non-result with weak evidential weight; (3) P6 relies on a
+QNFO-authored paper; (4) P1-P3 and P7 carry zero weight; (5) likelihoods
+are expert estimates, not objective frequencies.
+
+---
+
 **Author:** QNFO Research Collective
 **Date:** 2026-07-28
-**Status:** Phase 4 calibration update — P4, P5, P6 analyzed
+**Status:** Phase 4 calibration update — P4, P5, P6 analyzed, Bayesian cascade complete

@@ -25,7 +25,7 @@ Ultrametric (non-Archimedean) mathematics provides the correct state-space geome
 | 1 | Due Diligence | ✅ | KG + D1 + Vectorize + external query | Cross-ref report |
 | 2 | Literature Search | ✅ | Vectorize + KG + external APIs queried (SS blocked, arXiv empty) | `artifacts/literature-classification.md` |
 | 3 | Citation Management | ✅ | 16 refs audited, 5 DOIs verified, 2 DOIs missing | `artifacts/citation-audit.md` |
-| 4 | Deep Research | ⬜ | Bayesian cascade (if triggered) | Calibration register |
+| 4 | Deep Research | ✅ | Bayesian cascade — P4/P5/P6 posterior update | `artifacts/calibration-update-2026-07-28.md` |
 | 5 | Publication | ✅ | paper.md + PDF + Zenodo v1.0 + v1.1 | DOI resolves, D1 synced |
 | 6 | Deployment | ✅ | D1 living-paper, papers-server | HTTP 200 |
 | 7 | Dissemination | ✅* | Buffer: Bluesky ✅ Twitter ✅ LinkedIn ⛔ (queue full); SEO ✅; IA ✅ | 2/3 channels, IA submitted |
