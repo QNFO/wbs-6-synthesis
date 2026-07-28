@@ -40,8 +40,8 @@ Ultrametric (non-Archimedean) mathematics provides the correct state-space geome
 | M1: Repo Ready | 0 | Pre-flight P1-P8 all HARD pass | ✅ |
 | M2: Paper v1.0 Published | 5 | Zenodo DOI, D1, papers-server | ✅ `10.5281/zenodo.21547793` |
 | M3: ACRP-01 Corrections | 5 | C1-C7 applied, red-team passed, v1.1 published | ✅ `10.5281/zenodo.21575332` |
-| M4: Social Dissemination | 7 | Buffer posts on Twitter/LinkedIn/Bluesky | ⬜ |
-| M5: Core Distribution | 8 | GitHub + Zenodo + R2 + D1/KG all consistent | ⬜ |
+| M4: Social Dissemination | 7 | Buffer posts on Twitter/LinkedIn/Bluesky | ✅* |
+| M5: Core Distribution | 8 | GitHub + Zenodo + R2 + D1/KG all consistent | ✅ |
 
 ---
 
@@ -53,9 +53,9 @@ Ultrametric (non-Archimedean) mathematics provides the correct state-space geome
 | D2 | Consilience Map | `artifacts/consilience-map.md` | Git, R2 | ✅ |
 | D3 | Predictions Scorecard | `artifacts/predictions-scorecard.md` | Git, R2 | ✅ |
 | D4 | PROJECT-PLAN.md | `PROJECT-PLAN.md` | Git, R2 | ✅ |
-| D5 | Citation Audit | `artifacts/citation-audit.md` | Git, R2 | ⬜ |
-| D6 | Literature Classification | `artifacts/literature-classification.md` | Git, R2 | ⬜ |
-| D7 | SEO Audit Report | `artifacts/seo-audit.md` | Git, R2 | ⬜ |
+| D5 | Citation Audit | `artifacts/citation-audit.md` | Git, R2 | ✅ |
+| D6 | Literature Classification | `artifacts/literature-classification.md` | Git, R2 | ✅ |
+| D7 | SEO Audit Report | `artifacts/seo-audit.md` | Git, R2 | ⬜ (not created) |
 
 ---
 
