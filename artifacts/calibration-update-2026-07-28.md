@@ -131,7 +131,7 @@ P4, P5, and P6 are now analyzed. Remaining work is all hardware/math dependent.
 
 | Prediction | Status | P(E|H) | P(E|¬H) | LR |
 |:-----------|:-------|:------|:--------|:---|
-| P4 (Ultrametric embeddings) | SUPPORTED (r=0.8745) | 0.90 | 0.20 | 4.500 |
+| P4 (Ultrametric embeddings) | NOT DISCONFIRMED (r=0.8745) | 0.90 | 0.20 | 4.500 |
 | P5 (CMB log-periodic) | NOT DISCONFIRMED (p=0.38) | 0.70 | 0.90 | 0.778 |
 | P6 (Qubit-count ratio) | SUPPORTED (3–10×) | 0.85 | 0.30 | 2.833 |
 | **Combined** | | | | **9.918** |
