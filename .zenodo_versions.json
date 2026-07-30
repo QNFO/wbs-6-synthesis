@@ -1,15 +1,11 @@
 {
   "concept_doi": "10.5281/zenodo.21547793",
-  "latest_deposit_id": "21603374",
+  "latest_deposit_id": "21710922",
   "versions": [
     {"doi": "10.5281/zenodo.21547793", "deposit_id": "21547793", "tag": "v1.0", "published_at": "2026-07-25", "description": "Initial publication"},
     {"doi": "10.5281/zenodo.21575332", "deposit_id": "21575332", "tag": "v1.1", "published_at": "2026-07-25", "description": "ACRP-01 Phase 1 C1-C7 corrections"},
     {"doi": "10.5281/zenodo.21602774", "deposit_id": "21602774", "tag": "v1.2", "published_at": "2026-07-26", "description": "PDF rendering fix"},
-    {"doi": "10.5281/zenodo.21603374", "deposit_id": "21603374", "tag": "v1.3", "published_at": "2026-07-26", "description": "AR05 fix: added missing DOIs for Faddeev-Niemi 1997 and Distler-Garibaldi 2010"}
-  ],
-  "corrections": {
-    "v1.1-ACRP-01": {"date": "2026-07-25", "status": "published", "zenodo_doi": "10.5281/zenodo.21575332"},
-    "v1.2-PDF-FIX": {"date": "2026-07-26", "status": "published", "zenodo_doi": "10.5281/zenodo.21602774"},
-    "v1.3-AR05": {"date": "2026-07-26", "status": "published", "zenodo_doi": "10.5281/zenodo.21603374"}
-  }
+    {"doi": "10.5281/zenodo.21603374", "deposit_id": "21603374", "tag": "v1.3", "published_at": "2026-07-26", "description": "AR05 fix: added missing DOIs"},
+    {"doi": "10.5281/zenodo.21710922", "deposit_id": "21710922", "tag": "v1.4", "published_at": "2026-07-31", "description": "Rebuilt PDF (zero rendering errors), provenance bundle"}
+  ]
 }
