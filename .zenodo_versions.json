@@ -1,11 +1,48 @@
 {
   "concept_doi": "10.5281/zenodo.21547793",
-  "latest_deposit_id": "21710922",
+  "latest_deposit_id": "21789920",
   "versions": [
-    {"doi": "10.5281/zenodo.21547793", "deposit_id": "21547793", "tag": "v1.0", "published_at": "2026-07-25", "description": "Initial publication"},
-    {"doi": "10.5281/zenodo.21575332", "deposit_id": "21575332", "tag": "v1.1", "published_at": "2026-07-25", "description": "ACRP-01 Phase 1 C1-C7 corrections"},
-    {"doi": "10.5281/zenodo.21602774", "deposit_id": "21602774", "tag": "v1.2", "published_at": "2026-07-26", "description": "PDF rendering fix"},
-    {"doi": "10.5281/zenodo.21603374", "deposit_id": "21603374", "tag": "v1.3", "published_at": "2026-07-26", "description": "AR05 fix: added missing DOIs"},
-    {"doi": "10.5281/zenodo.21710922", "deposit_id": "21710922", "tag": "v1.4", "published_at": "2026-07-31", "description": "Rebuilt PDF (zero rendering errors), provenance bundle"}
+    {
+      "doi": "10.5281/zenodo.21547793",
+      "deposit_id": "21547793",
+      "tag": "v1.0",
+      "published_at": "2026-07-25",
+      "description": "Initial publication"
+    },
+    {
+      "doi": "10.5281/zenodo.21575332",
+      "deposit_id": "21575332",
+      "tag": "v1.1",
+      "published_at": "2026-07-25",
+      "description": "ACRP-01 Phase 1 C1-C7 corrections"
+    },
+    {
+      "doi": "10.5281/zenodo.21602774",
+      "deposit_id": "21602774",
+      "tag": "v1.2",
+      "published_at": "2026-07-26",
+      "description": "PDF rendering fix"
+    },
+    {
+      "doi": "10.5281/zenodo.21603374",
+      "deposit_id": "21603374",
+      "tag": "v1.3",
+      "published_at": "2026-07-26",
+      "description": "AR05 fix: added missing DOIs"
+    },
+    {
+      "doi": "10.5281/zenodo.21710922",
+      "deposit_id": "21710922",
+      "tag": "v1.4",
+      "published_at": "2026-07-31",
+      "description": "Rebuilt PDF (zero rendering errors), provenance bundle"
+    },
+    {
+      "doi": "10.5281/zenodo.21789920",
+      "deposit_id": "21789920",
+      "tag": "v1.5-kif60",
+      "published_at": "2026-08-04",
+      "description": "KIF-60 Bayesian Evidential Weight Gate: [RETRODICTION] cap on convergence claim, methodological note section, bayesian-evidential-weight.md supplementary file"
+    }
   ]
 }
