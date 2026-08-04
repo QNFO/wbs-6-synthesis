@@ -106,6 +106,20 @@ No projects registered yet. Papers are tracked as KG Paper nodes under this prog
 | `QNFO.JPC` | program | JPCub Validation | `jpcub-validation` | — | active |
 | `QNFO.JPC.001` | project | JPCub Validation | `jpcub-validation` | `QNFO/jpcub-validation` | active |
 
+### Program: QNFO.ODR — ODR Thesis Program
+
+| WBS | Level | Name | Slug | GitHub | Status |
+|:----|:------|:-----|:-----|:-------|:------:|
+| `QNFO.ODR` | program | ODR Thesis Program | `odr-thesis` | `QNFO/odr-thesis` | active |
+| `QNFO.ODR.001` | project | ODR Thesis (Compton Count as Only Primitive) | `odr-thesis` | `QNFO/odr-thesis` | active (P5) |
+
+### Program: QNFO.CGS — Consilient Gap Synthesis
+
+| WBS | Level | Name | Slug | GitHub | Status |
+|:----|:------|:-----|:-----|:-------|:------:|
+| `QNFO.CGS` | program | Consilient Gap Synthesis | `consilient-gap-synthesis` | `QNFO/consilient-gap-synthesis` | active |
+| `QNFO.CGS.001` | project | QNFO/QWAV Portfolio Gap Synthesis | `consilient-gap-synthesis` | `QNFO/consilient-gap-synthesis` | active (P5) |
+
 ---
 
 ## §4 Version Tag Convention
