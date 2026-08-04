@@ -166,6 +166,13 @@ Slugs are used in:
 | Five Pillars Synthesis | `QNFO.CON.001` | `proj-qnfo-con-001` | `QNFO/wbs-6-synthesis` | `10.5281/zenodo.21547793` |
 | Ultrametric Foundations | `QNFO.UF` | `prog-qnfo-uf` | — | `10.5281/zenodo.21046993` |
 
+| Ultrametric Physics (consolidated) | `QNFO.UMP` | `prog-qnfo-ump` | `QNFO/ultrametric-physics` | — |
+| Laws of Form (consolidated) | `QNFO.SLB` | `prog-qnfo-slb` | `QNFO/laws-of-form` | — |
+| Infomatics (consolidated) | `QNFO.INM` | `prog-qnfo-inm` | `QNFO/infomatics` | — |
+| CFPE (consolidated) | `QNFO.CFE` | `prog-qnfo-cfe` | `QNFO/cfpe` | — |
+| QNFO Research Archive (consolidated) | `QNFO.RES` | `prog-qnfo-res` | `QNFO/qnfo-research` | — |
+| QWAV Platform (consolidated) | `QWAV.PLT` | `prog-qwav-plt` | `QNFO/qwav-platform` | — |
+| QWAV Demos (consolidated) | `QWAV.DEM` | `prog-qwav-dem` | `QNFO/qwav-demos` | — |
 ---
 
 ## §7 Registration Protocol
@@ -178,3 +185,33 @@ When creating a new program, project, phase, or task:
 4. **Create BELONGS_TO edge** — source → parent node
 5. **Update this document** — add to the registry table above
 6. **Memory-store** — `remember_fact` for agent cross-session recall
+
+
+---
+
+## §8 Consolidated Program Repos (2026-08-04)
+
+On 2026-08-04, 45 project-level repos were consolidated into 7 program repos (git subtree,
+history preserved). These are the CANONICAL program codes — branch naming uses
+`{prog}/{type}/{slug}` and every update_plan step carries `[{PORTFOLIO}.{PROG}.{NNN}.P{N}]`.
+
+| WBS Code | Program | Portfolio | Repo | Branch prefix | update_plan prefix |
+|:---------|:--------|:----------|:-----|:--------------|:-------------------|
+| `UMP` | Ultrametric Physics | QNFO | `QNFO/ultrametric-physics` | `ump/` | `[QNFO.UMP.001.P0]` |
+| `SLB` | Laws of Form (Spencer-Brown) | QNFO | `QNFO/laws-of-form` | `slb/` | `[QNFO.SLB.001.P0]` |
+| `INM` | Infomatics | QNFO | `QNFO/infomatics` | `inm/` | `[QNFO.INM.001.P0]` |
+| `CFE` | CFPE (Cascading Foresight) | QNFO | `QNFO/cfpe` | `cfe/` | `[QNFO.CFE.001.P0]` |
+| `RES` | QNFO Research Archive | QNFO | `QNFO/qnfo-research` | `res/` | `[QNFO.RES.001.P0]` |
+| `PLT` | QWAV Platform | QWAV | `QNFO/qwav-platform` | `plt/` | `[QWAV.PLT.001.P0]` |
+| `DEM` | QWAV Demos | QWAV | `QNFO/qwav-demos` | `dem/` | `[QWAV.DEM.001.P0]` |
+
+**Canonical format:** `{PORTFOLIO}.{PROGRAM}.{PROJECT}.P{PHASE}.T{TASK}.S{SUBTASK}`
+Example: `QNFO.UMP.001.P4.T3.S2` = Ultrametric Physics, project 001, Phase 4, Task 3, Subtask 2.
+
+**Branch naming (HARD):** `{prog}/{type}/{slug}` — lowercase program code, work type
+(`paper`/`audit`/`artifact`/`infra`/`fix`/`kaizen`), then the paper/project slug.
+Example: `ump/paper/adelic-shannon-theory`, `res/audit/acrp04-five-smooth`, `plt/infra/d1-backfill`.
+
+**update_plan integration (HARD):** every plan step carries the WBS prefix; the full code is the
+unique key for plan steps, branches, tags, D1 entries, and KG edges. Canonical registry:
+qnfo-core §N-1 (skills), this document (repos/papers).
