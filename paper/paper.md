@@ -5,6 +5,9 @@ date: "2026-07-25"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 doi: "10.5281/zenodo.21547793"
 status: "published"
+kif60-assessed: "2026-08-04"  # KIF-60 Bayesian Evidential Weight Gate applied; see artifacts/bayesian-evidential-weight.md
+kif60-classification: "[RETRODICTION] — convergence observed not predicted; falsifiable predictions in §3 carry evidential weight"
+
 header-includes: |
   \usepackage{amsmath}
   \usepackage{amssymb}
@@ -26,7 +29,12 @@ abstract: |
   p-adic valuations. The convergence is not designed — it emerges from
   independent theoretical, experimental, and mathematical approaches — and
   constitutes the strongest form of evidence for a framework short of direct
-  experimental confirmation.
+  experimental confirmation. [RETRODICTION — KIF-60 Bayesian Evidential
+  Weight Gate (2026-08-04): The convergence was observed post-hoc, not pre-registered.
+  By Ostrowski's theorem, ultrametric structure is 1 of 2 possible completions (R, Q_p);
+  P(convergence|no common structure) ≈ 0.5 under null model. The paper's actual
+  evidential content lies in its falsifiable predictions (§3). See
+  artifacts/bayesian-evidential-weight.md for the full KIF-60 assessment.]
 ---
 
 **Author:** QNFO Research Collective | **Date:** 2026-07-25 | **License:** QNFO-ULA
@@ -54,7 +62,55 @@ shared structure (which we call the **Adelic Core**), derives falsifiable predic
 that distinguish this framework from the Standard Model interpretation, and catalogues
 open questions that must be addressed before the framework can be considered complete.
 
+**[Methodological Note (2026-08-04, KIF-60):]** The convergence of five pillars
+on ultrametric structure, while valuable as a synthesis, carries zero Bayesian
+evidential weight as a *prediction*. The convergence was observed post-hoc, not
+pre-registered. The falsifiable predictions in §3 carry the paper's actual
+evidential content. See §Methodological Note and artifacts/bayesian-evidential-weight.md
+for the full KIF-60 assessment.
+
 ---
+
+## Methodological Note: Bayesian Evidential Weight and the Convergence Claim
+
+This paper was published on 2026-07-25 as a synthesis documenting five QNFO research
+pillars converging on ultrametric structure. On 2026-08-04, it was audited under the
+KIF-60 Bayesian Evidential Weight Gate (research v2.70, qnfo-core v1.13). The gate
+distinguishes genuine risky predictions from post-hoc rationalization.
+
+**Key finding:** The central consilience claim — "five independent programs converge" —
+has Δlog-odds ≈ 0 under Bayesian evidential weight analysis. Three factors drive this:
+
+1. **Pre-registration gap:** The convergence was observed, not predicted. No
+   timestamped record of "we predict these five programs will converge" predates
+   the pillars' development. By KIF-60 standards, this is [RETRODICTION — not
+   evidence].
+
+2. **Surprise accounting:** Ostrowski's theorem (1916) establishes that the only
+   completions of ℚ are the Archimedean real numbers and the non-Archimedean
+   p-adic numbers. Five programs converging on "one of two possible structural
+   classes" has P ≈ 0.5 under a flat null model — not surprising.
+
+3. **Shared intellectual framework:** All five pillars were developed within the
+   QNFO research program, share common mathematical vocabulary (p-adic analysis,
+   Ostrowski's theorem), and cite each other. The "independence" is weakened by
+   shared infrastructure.
+
+**What DOES carry evidential weight:** The falsifiable predictions in §3. These
+are concrete, testable, and (in some cases) pre-registered against specific
+thresholds. The paper's evidence hierarchy should be: 
+
+> Predictions (§3) → evidence → Adelic Core structure → convergence as
+> interpretive framing, not as evidence in itself.
+
+**Denominator audit:** The paper documents five programs that converged on
+ultrametric structure. How many QNFO programs were checked in total? If only
+converging programs are reported, the hit/miss ratio is incomplete. A future
+revision should state the denominator explicitly.
+
+See `artifacts/bayesian-evidential-weight.md` for the full KIF-60 assessment,
+including the Δlog-odds computation, three concrete tests, tautology trap
+analysis, and six action items.
 
 ## 1. The Five Pillars
 
